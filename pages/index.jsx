@@ -13,6 +13,8 @@ export default function Home() {
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=7" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="http://buildandservice.my.id" />
+        <link rel="canonical" href="http://heri.buildandservice.my.id" />
 
         <meta property="og:image" content="http://www.example.com/image01.jpg"></meta>
         <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png" />
