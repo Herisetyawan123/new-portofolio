@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Heri Setyawan | Portofolio</title>
         <meta name="keywords" content="heri setyawan, herisetyawan, @herisetyawan, #herisetyawan, unej, universitas jember, fullstack, backend engineering, frontend, informatika, portofolio, sutipan" />
-        <meta name="description" content="Perkenalkan namaku Heri setyawan, saya adalah seorang fullstack developer dan juga seorang mahasiswa." />
+        <meta name="description" content="Perkenalkan namaku Heri setyawan umurku 21 tahun, saya adalah seorang fullstack developer dan backend engineering. Saya sangat menyukai programming, sekarang saya sedang menempuh pendidikan di salah satu universitas negeri di jawa timur." />
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=7" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
