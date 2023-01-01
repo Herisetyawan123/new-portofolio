@@ -1,14 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 
 :root{
   --dark: #090E16;
   --purple: #7B4AE2;
   --white: #ffffff;
+  --purple-5: rgba(123, 74, 226, 0.05);
+  --purple-10: rgba(123, 74, 226, 0.1);
 }
 
 
 body{
   background-color: var(--dark) !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: var(--white) !important;
 }
+
+nav.navbar{
+  background: var(--purple-5);
+}
+

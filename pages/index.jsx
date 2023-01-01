@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Navbar from "../components/Navbar";
+import Profile from "../components/parts/Profile";
 
 export default function Home() {
   return (
@@ -22,9 +24,9 @@ export default function Home() {
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
+      <Navbar />
       <main>
-
-
+        <Profile />
       </main>
     </div>
   );
