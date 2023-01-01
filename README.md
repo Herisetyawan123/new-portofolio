@@ -5,6 +5,8 @@ Menu:
   1. Introduce
   2. Vector image by me
   3. Button cv & whatsapp
+
+![alt home](/assets/preview/home.png)
 - Short Description myskill:
   1. programming
   2. Problem Solving
