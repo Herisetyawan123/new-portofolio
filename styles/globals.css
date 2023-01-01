@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  --dark: #090E16;
+  --purple: #7B4AE2;
+  --white: #ffffff;
+}
+
+
+body{
+  background-color: var(--dark) !important;
+}
