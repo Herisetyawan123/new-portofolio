@@ -21,7 +21,7 @@ export default function Profile(){
       <Flex className="flex-col-reverse sm:flex-row justify-between items-center" wrap={'wrap'}>
         <Box>
           <span className="bg-[var(--purple-10)] px-3 py-1 rounded-xl text-[var(--purple)]">
-            👋 Saudações!
+            👋 Selamat datang !
           </span>
           <h1 className="font-extrabold text-6xl mt-7 w-96">Heri Setyawan</h1>
           <p className="mt-4 text-xl opacity-50">Fullstack developer · Back-end Engineering</p>
