@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
+import MoreSection from "../components/parts/MoreSection";
 import Profile from "../components/parts/Profile";
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Profile />
+        <MoreSection />
       </main>
     </div>
   );

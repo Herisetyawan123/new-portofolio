@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar(){
   return (
-    <Flex as="nav" className="navbar text-white py-3 px-9 fixed mx-4 lg:mx-36 top-4 lg:top-9 right-0 left-0 rounded-2xl">
+    <Flex as="nav" className="navbar text-white py-3 px-9 fixed mx-4 lg:mx-36 top-4 lg:top-9 right-0 left-0 rounded-2xl z-50">
       <Link href={"/"}>
         <Image src={Logo} alt="Heri Setyawan" height={30} />
       </Link>
