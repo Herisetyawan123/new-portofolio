@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="canonical" href="http://buildandservice.my.id" />
         <link rel="canonical" href="http://heri.buildandservice.my.id" />
 
-        <meta property="og:image" content="http://www.example.com/image01.jpg"></meta>
+        {/* <meta property="og:image" content="http://www.example.com/image01.jpg"></meta> */}
         <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png" />
