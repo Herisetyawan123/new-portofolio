@@ -56,7 +56,8 @@ export default function MoreSection(){
 
     <Box background={"var(--purple-5)"} color={"var(--purple)"} className="mt-5 rounded-xl px-5 py-7 lg:flex hidden">
       <div className="flex-1 text-center">
-        <h2 className="font-bold text-2xl">Frontend</h2>
+        <p>Developer</p>
+        <h2 className="font-bold text-2xl">Website</h2>
       </div>
       <div className="flex-1 text-center">
         <p>getting projects</p>
