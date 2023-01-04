@@ -16,9 +16,10 @@ body{
   background-color: var(--dark) !important;
   font-family: 'Raleway', sans-serif !important;
   color: var(--white) !important;
+  overflow-x: hidden;
 }
 
 nav.navbar{
-  background: var(--purple-5);
+  background: var(--purple-10);
 }
 
