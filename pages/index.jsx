@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Element } from "react-scroll";
 import Navbar from "../components/Navbar";
 import About from "../components/parts/About";
 import MoreSection from "../components/parts/MoreSection";
@@ -35,9 +36,13 @@ export default function Home() {
       </Head>
       <Navbar />
       <main>
-        <Profile />
-        <MoreSection />
-        <About />
+        <Element name="home">
+          <Profile />
+          <MoreSection />
+        </Element>
+        <Element name="about">
+          <About />
+        </Element>
       </main>
     </div>
   );

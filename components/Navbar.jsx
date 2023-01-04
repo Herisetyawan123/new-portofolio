@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Logo from "../assets/me/Logo.png"
 import { Flex, HStack, Spacer } from "@chakra-ui/react";
-import Link from "next/link";
-
+// import Link from "next/link";
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 export default function Navbar(){
   return (
@@ -12,22 +12,24 @@ export default function Navbar(){
       </Link>
       <Spacer />
       <div className="lg:flex gap-x-10 hidden" >
-        <Link href={"#"} >
-          <span className="font-extrabold text-[var(--purple)] hover:text-violet-400 duration-500">Home</span>
+        <Link activeClass="active" className="home" to="home" spy={true} smooth={true} duration={500} >
+          <span className="cursor-pointer font-extrabold text-[var(--purple)] hover:text-violet-400 duration-500">Home</span>
         </Link>
-        <Link href={"#"}>
-          <span className="text-[var(--white)] hover:text-violet-400 duration-500">About Me</span>
+
+        <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500} >
+          <span className="cursor-pointer text-[var(--white)] hover:text-violet-400 duration-500">About Me</span>
         </Link>
-        <Link href={"#"}>
+
+        <Link activeClass="active" className="portofolio" to="portofolio" spy={true} smooth={true} duration={500}>
           <span className="text-[var(--white)] hover:text-violet-400 duration-500">Portofolio</span>
         </Link>
-        <Link href={"#"}>
+        <Link activeClass="active" className="skill" to="skill" spy={true} smooth={true} duration={500}>
           <span className="text-[var(--white)] hover:text-violet-400 duration-500">Skill</span>
         </Link>
-        <Link href={"#"}>
+        <Link activeClass="active" className="experience" to="experience" spy={true} smooth={true} duration={500}>
           <span className="text-[var(--white)] hover:text-violet-400 duration-500">Experience</span>
         </Link>
-        <Link href={"#"}>
+        <Link activeClass="active" className="contact" to="contact" spy={true} smooth={true} duration={500}>
           <span className="text-[var(--white)] hover:text-violet-400 duration-500">Contact</span>
         </Link>
       </div>
